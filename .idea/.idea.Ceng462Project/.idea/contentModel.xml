@@ -6,10 +6,10 @@
     <e p="C:\Users\Maleriya\Desktop\Pigeon Gaming\Ceng462Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ButtonClick.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="BallController.cs" t="Include" />
           <e p="BoxController.cs" t="Include" />
+          <e p="ButtonClick.cs" t="Include" />
           <e p="LosingCollider.cs" t="Include" />
           <e p="Pedal.cs" t="Include" />
           <e p="PlayerData.cs" t="Include" />

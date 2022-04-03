@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class BallController : MonoBehaviour
 {
@@ -11,9 +12,11 @@ public class BallController : MonoBehaviour
     public GameObject voiceBroke;
     public GameObject voiceKick;
     public int boxNumber;
+    private int boxNumberInit;
     private bool flag;
     void Start()
     {
+        boxNumberInit = boxNumber;
         GameObject.Find("57483265").transform.position = new Vector3(5.28f,0.801f,25f);
         flag = false;
         distance = transform.position - OyunPedali.transform.position;
@@ -59,5 +62,6 @@ public class BallController : MonoBehaviour
         {
             SceneManager.LoadScene(2);
         }
+        GameObject.Find("Text").GetComponent<Text>().text = "Point: " + (5 - boxNumberInit);
     }
 }
