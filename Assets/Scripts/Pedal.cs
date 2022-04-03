@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class Pedal : MonoBehaviour {
     [SerializeField] float ekranGenisligiUnitCinsinden = 16f;
-// Use this for initialization
     void Start () {
+        Debug.Log("Basladı");
+        
     }
 // Update is called once per frame
     void Update () {
@@ -16,5 +17,10 @@ public class Pedal : MonoBehaviour {
         pedalPozisyonu.x = Mathf.Clamp(pedalPozisyonu.x, 1.52f, 8.45f);
         transform.position = pedalPozisyonu;
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        GameObject.Find("Ball").GetComponent<Rigidbody2D>().AddForce(new Vector2(0f,5f));
     }
 }

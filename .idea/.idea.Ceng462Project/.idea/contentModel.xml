@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Maleriya\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Maleriya\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Ceng462Project.1690999350.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Maleriya\Desktop\Pigeon Gaming\Ceng462Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ButtonClick.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="BallController.cs" t="Include" />
+          <e p="BoxController.cs" t="Include" />
+          <e p="LosingCollider.cs" t="Include" />
+          <e p="Pedal.cs" t="Include" />
+          <e p="PlayerData.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Ceng462Project.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
