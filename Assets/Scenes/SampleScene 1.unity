@@ -1313,7 +1313,7 @@ MonoBehaviour:
   OyunPedali: {fileID: 1078190582}
   voiceBroke: {fileID: 7079994661938988443, guid: bdaa9b25e1cb3fe439d2a5dd13930769,
     type: 3}
-  voiceKick: {fileID: 2900451931238858772, guid: fe3d1d60825c63a40a029329667aa812,
+  voiceKick: {fileID: 3798748370658460259, guid: fe3d1d60825c63a40a029329667aa812,
     type: 3}
   boxNumber: 5
 --- !u!1 &1078190582
